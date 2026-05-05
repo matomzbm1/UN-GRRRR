@@ -32,7 +32,7 @@ const App = () => {
       title: "Cancelación",
       description: "Derecho a solicitar la eliminación de datos cuando su almacenamiento carezca de fundamento legal.",
       icon: <Lock className="w-6 h-6" />,
-      color: "bg-rose-500"
+      color: "bg-red-500"
     },
     {
       title: "Oposición",
@@ -146,14 +146,14 @@ const App = () => {
               </p>
             </div>
 
-            <div className="bg-rose-50 p-6 rounded-3xl border border-rose-100">
-              <div className="flex items-center gap-3 mb-4 text-rose-800 font-bold">
+            <div className="bg-orange-50 p-6 rounded-3xl border border-orange-200">
+              <div className="flex items-center gap-3 mb-4 text-orange-800 font-bold">
                 <AlertCircle className="w-5 h-5" />
                 <span>¿Cuándo denunciar?</span>
               </div>
-              <ul className="text-sm text-rose-900/70 space-y-2">
+              <ul className="text-sm text-orange-900/70 space-y-2">
                 <li className="flex gap-2 font-medium">
-                  <ChevronRight size={16} className="mt-0.5 flex-shrink-0 text-rose-400" />
+                  <ChevronRight size={16} className="mt-0.5 flex-shrink-0 text-orange-500" />
                   Si usan tus datos sin tu consentimiento explícito.
                 </li>
                 <li className="flex gap-2 font-medium">
